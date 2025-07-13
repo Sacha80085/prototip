@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  border: 1px solid black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+main {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  margin-right: 40px;
+}
+
+a:hover {
+  color: gold;
+  font-size: 20px;
+  margin-right: 40px;
+}
+.ss {
+  width: 1200px;
+  height: 500px;
+  background-image: url('img/котт.png');
+  background-size:cover;
+  background-position:center;
+  filter:drop-shadow();
+}
+
+h1 {
+  color: gold;
+  font-size: 55px;
+}
